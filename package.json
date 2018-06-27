@@ -1,0 +1,28 @@
+{
+  "name": "104-checkin-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "checkin": "codeceptjs run --steps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahengchang/104-checkin-util.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahengchang/104-checkin-util/issues"
+  },
+  "homepage": "https://github.com/wahengchang/104-checkin-util#readme",
+  "dependencies": {
+    "nightmare": "^2.10.0",
+    "nightmare-upload": "^0.1.1",
+    "webdriverio": "^4.9.11"
+  },
+  "devDependencies": {
+    "codeceptjs-webdriverio": "^1.1.0"
+  }
+}
